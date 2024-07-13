@@ -1,0 +1,109 @@
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: "Playwrite DE Grund", cursive; */
+    background-color: rgb(248, 248, 248);
+
+    margin: 1px;
+    padding: 1px;}
+
+
+header{
+    align-items: center; 
+    justify-content:space-between ;
+    display: flex;
+    padding: 10px 40px;
+    color: black;  
+    font-weight: 900; 
+    
+}
+.logo img{
+    vertical-align: middle;
+    margin-bottom: 5px; 
+}
+.logo{
+    font-size: 25px;
+}
+.link{
+    margin-left: -50px;
+
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight:500;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.link a:hover{
+background-color: darkgray;
+color:rgb(255, 255, 255) ;
+font-size: larger;
+
+}
+.active{
+    background-color: darkgray;
+    color:rgb(255, 255, 255) ;
+    font-size: larger;
+    
+}
+.see button{
+    border-radius: 75px;
+    padding: 10px 30px;
+    background-color: inherit;
+    font-size: 15px;
+    font-weight: 600;
+}
+.see button:hover{
+    background-color: black;
+    color:  rgb(255, 255, 255);
+    cursor: pointer;
+}
+fieldset{
+    width: 100px;
+    margin: 100px 350px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkgray ;
+    box-sizing: border-box;
+    box-shadow: 100px;
+    font-family:sans-serif;
+  
+}
+input{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+select{
+    margin-top: 10px;
+    width: 205px;
+    height: 20px;
+}
+textarea{
+    margin-top: 10px;
+    
+}
+.submit button{
+    border-radius: 75px;
+    padding: 10px 30px;
+    background-color: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.page{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.footer{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    padding: 10px;
+
+}
